@@ -25,8 +25,12 @@ body {
   width: 100%;
 }
 
+header, figure {
+  font-family: "Palanquin Dark", sans-serif;
+}
+
 .logo {
-  width: 8%;
+  width: 12%;
   position: absolute;
   float: left;
   left: 10px;
@@ -42,17 +46,20 @@ nav {
   background-color: #000;
   color: #fff;
   z-index: 1000;
-  font-family: "Palanquin Dark", sans-serif;
+}
+
+header nav a {
+  width: auto;
 }
 
 li {
   display: inline;
 }
 
-a {
+nav a {
   list-style-type: none;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .menubtn {
@@ -87,7 +94,7 @@ a {
 }
 
 .dropdown-content a:hover {
-  background-color: #767676;
+  background-color: #535353;
   color: #fff;
 }
 
@@ -127,24 +134,81 @@ a {
   top: 41px;
 }
 
+figure {
+  position: relative;
+}
+
+figcaption {
+  color: #fff;
+  float: left;
+  position: absolute;
+  z-index: 500;
+}
+
+.first-cap {
+  left: 215px;
+  top: 115px;
+  margin-right: 5em;
+}
+
+.second-cap {
+  left: 215px;
+  top: 240px;
+}
+
+figure .btn {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+  padding: .5em;
+  float: left;
+  position: relative;
+  top: -150px;
+  left: 325px;
+  text-decoration: none;
+}
+
+figure .btn:hover {
+  -webkit-box-shadow: 0 0 8px 0 #326122;
+  -moz-box-shadow: 0 0 8px 0 #326122;
+  box-shadow: 0 0 8px 0 #326122;
+}
+
 @media only screen and (min-width: 25em) {
 
-  ul {
+  nav ul {
     display: none;
+    padding: .3em;
   }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .logo {
+    width: 6%;
+  }
+
 }
 
 @media only screen and (min-width: 35em) {
 
-  ul {
-    display: inline-block;
+  nav ul {
+    display: inline;
   }
 
   nav {
     display: block;
   }
 
-  .dropdown-menu {
+  nav .dropdown-menu {
     display: none;
+  }
+
+  a {
+    float: left;
+    position: relative;
+    left: 120px;
+    padding: .7em;
   }
 }
