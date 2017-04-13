@@ -102,6 +102,10 @@ nav a {
   display: block;
 }
 
+.dropdown-content a:active {
+  border: 0px;
+}
+
 .main-img {
   width: 150%;
   margin: 0;
@@ -114,7 +118,6 @@ nav a {
   width: 150%;
   margin: 0;
   position: relative;
-  left: 0px;
   top: 41px;
 }
 
@@ -169,9 +172,9 @@ figure .btn {
 }
 
 figure .btn:hover {
-  -webkit-box-shadow: 0 0 8px 0 #326122;
-  -moz-box-shadow: 0 0 8px 0 #326122;
-  box-shadow: 0 0 8px 0 #326122;
+  -webkit-box-shadow: 0px 0px 3px 2px #fff;
+  -moz-box-shadow: 0px 0px 3px 2px #fff;
+  box-shadow: 0px 0px 3px 2px #fff;
 }
 
 @media only screen and (min-width: 25em) {
