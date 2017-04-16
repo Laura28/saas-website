@@ -159,6 +159,30 @@ figcaption {
   top: 240px;
 }
 
+.third-cap {
+  left: 30px;
+  top: 30px;
+  margin-right: 20em;
+}
+
+.fourth-cap {
+  left: 120px;
+  top: 30px;
+  margin-right: 15em;
+}
+
+.fifth-cap {
+  left: 120px;
+  top: 105px;
+  margin-right: 22em;
+}
+
+.sixth-cap {
+  left: 160px;
+  top: 20px;
+  margin-right: 12em;
+}
+
 figure .btn {
   color: #fff;
   background-color: #000;
@@ -175,6 +199,19 @@ figure .btn:hover {
   -webkit-box-shadow: 0px 0px 3px 2px #fff;
   -moz-box-shadow: 0px 0px 3px 2px #fff;
   box-shadow: 0px 0px 3px 2px #fff;
+}
+
+.slogan {
+  font-family: "Palanquin Dark", sans-serif;
+  border: 1px solid #000;
+  margin: .5em;
+  text-align: left;
+  display: block;
+}
+
+.slogan-text {
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 25em) {
