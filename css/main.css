@@ -107,10 +107,10 @@ nav a {
 }
 
 .main-img {
-  width: 150%;
+  width: 240%;
   margin: 0;
   position: relative;
-  left: -190px;
+  left: -490px;
   top: -40px;
 }
 
@@ -149,13 +149,13 @@ figcaption {
 }
 
 .first-cap {
-  left: 215px;
+  left: 10px;
   top: 115px;
   margin-right: 5em;
 }
 
 .second-cap {
-  left: 215px;
+  left: 10px;
   top: 240px;
   color: #fff;
   float: left;
@@ -193,13 +193,13 @@ figcaption {
 
 figure .btn {
   color: #fff;
-  background-color: #000;
+  background-color: rgba(69, 78, 161, 0.5);
   border: 2px solid #fff;
   padding: .5em;
   float: left;
   position: relative;
   top: -150px;
-  left: 325px;
+  left: 125px;
   text-decoration: none;
 }
 
@@ -248,16 +248,41 @@ footer {
   margin-top: 2em;
 }
 
-.logo-two {
+.facebook {
   width: 12%;
-  float: left;
+  float: right;
   position: absolute;
-  left: 10px;
-  top: 1845px;
+  right: 10px;
+  top: 1880px;
+}
+
+.twitter {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 1935px;
+}
+
+.insta {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 1990px;
 }
 
 .footer-sign-up {
   margin-top: 5em;
+}
+
+small {
+  color: #fff;
+  font-family: "Palanquin Dark", sans-serif;
+  float: left;
+  position: absolute;
+  left: 20px;
+  top: 2010px;
 }
 
 @media only screen and (min-width: 25em) {
