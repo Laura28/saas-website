@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Palanquin", sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,6 +19,11 @@ html {
 
 body {
   margin: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .img-flex {
@@ -30,12 +36,19 @@ header, figure {
 }
 
 .logo-one {
-  width: 12%;
+  width: 15%;
   position: absolute;
   float: left;
   left: 10px;
-  top: 5px;
+  top: 10px;
 
+}
+
+h1 {
+  float: left;
+  position: relative;
+  left: 70px;
+  top: 20px;
 }
 
 nav {
@@ -46,6 +59,11 @@ nav {
   background-color: #000;
   color: #fff;
   z-index: 1000;
+}
+
+nav ul {
+  display: none;
+  padding: .3em;
 }
 
 header nav a {
@@ -65,7 +83,7 @@ nav a {
 .menubtn {
   background-color: #535353;
   color: #fff;
-  padding: 1.3em;
+  padding: 1.5em;
   border: none;
 }
 
@@ -73,7 +91,6 @@ nav a {
   position: relative;
   display: inline-block;
   float: right;
-  right: 32px;
 }
 
 .dropdown-content {
@@ -89,7 +106,7 @@ nav a {
   padding-top: .6em;
   padding-bottom: .6em;
   text-decoration: none;
-  background-color: #919191;
+  background-color: #a3a3a3;
   display: block;
 }
 
@@ -107,18 +124,19 @@ nav a {
 }
 
 .main-img {
-  width: 240%;
+  width: 200%;
   margin: 0;
   position: relative;
-  left: -490px;
-  top: -40px;
+  padding-top: 3.7em;
+  left: -260px;
 }
 
 .second-img {
-  width: 150%;
+  width: 200%;
   margin: 0;
   position: relative;
-  top: 41px;
+  top: 68px;
+  left: -160px;
 }
 
 .third-img {
@@ -149,30 +167,37 @@ figcaption {
 }
 
 .first-cap {
-  left: 10px;
+  text-align: center;
+  left: 65px;
   top: 115px;
   margin-right: 5em;
 }
 
 .second-cap {
-  left: 10px;
-  top: 240px;
+  text-align: center;
+  top: 200px;
   color: #fff;
   float: left;
   position: absolute;
   z-index: 500;
+  margin-left: 5.5em;
+  margin-right: 6em;
 }
 
 .third-cap {
-  left: 30px;
+  left: 225px;
   top: 30px;
-  margin-right: 20em;
+  color: #000;
 }
 
 .fourth-cap {
-  left: 120px;
-  top: 30px;
-  margin-right: 15em;
+  left: 210px;
+  top: 70px;
+  right: 210px;
+  color: #000;
+  float: left;
+  position: absolute;
+  text-align: center;
 }
 
 .fifth-cap {
@@ -193,13 +218,13 @@ figcaption {
 
 figure .btn {
   color: #fff;
-  background-color: rgba(69, 78, 161, 0.5);
+  background-color: rgba(83, 83, 83, 0.5);
   border: 2px solid #fff;
   padding: .5em;
   float: left;
   position: relative;
   top: -150px;
-  left: 125px;
+  left: 80px;
   text-decoration: none;
 }
 
@@ -226,7 +251,7 @@ figure .btn:hover {
   float: none;
   color: #000;
   font-family: "Palanquin Dark", sans-serif;
-  margin-left: 3em;
+  margin-left: 1.7em;
   padding-bottom: 1em;
   margin-top: 0;
   margin-bottom: 0;
@@ -234,12 +259,9 @@ figure .btn:hover {
 
 .b-a-pics {
   padding-bottom: .5em;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-hr {
-  margin-top: 2em;
+  margin-bottom: none;
+  margin-top: none;
+  margin-left: none;
 }
 
 footer {
@@ -253,7 +275,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 1880px;
+  top: 2350px;
 }
 
 .twitter {
@@ -261,7 +283,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 1935px;
+  top: 2405px;
 }
 
 .insta {
@@ -269,7 +291,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 1990px;
+  top: 2460px;
 }
 
 .footer-sign-up {
@@ -282,14 +304,86 @@ small {
   float: left;
   position: absolute;
   left: 20px;
-  top: 2010px;
+  top: 2480px;
 }
 
-@media only screen and (min-width: 25em) {
+hr {
+  border: 1px solid #a3a3a3
+}
+
+.facebook-tour {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.twitter-tour {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.insta-tour {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.facebook-sign {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.twitter-sign {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.insta-sign {
+  width: 12%;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+@media only screen and (min-width: 23em) {
 
   nav ul {
     display: none;
     padding: .3em;
+  }
+
+  .logo-one {
+    width: 13%;
+  }
+
+  .first-cap {
+    left: 85px;
+  }
+
+  .second-cap {
+    margin-left: 5em;
+  }
+
+  figure .btn {
+    left: 105px;
+    top: -180px;
+  }
+
+  footer {
+    margin-top: 20em;
+  }
+
+  .facebook {
+    width: 15%;
+    top: 2650;
   }
 
 }
