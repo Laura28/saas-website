@@ -140,19 +140,19 @@ nav a {
 }
 
 .third-img {
-  width: 150%;
+  width: 250%;
   margin: 0;
   position: relative;
-  left: -100px;
-  top: 41px;
+  left: -170px;
+  top: 65px;
 }
 
 .fourth-img {
-  width: 150%;
+  width: 230%;
   margin: 0;
   position: relative;
-  left: -150px;
-  top: 41px;
+  left: -220px;
+  top: 65px;
 }
 
 figure {
@@ -175,7 +175,7 @@ figcaption {
 
 .second-cap {
   text-align: center;
-  top: 200px;
+  top: 190px;
   color: #fff;
   float: left;
   position: absolute;
@@ -201,19 +201,43 @@ figcaption {
 }
 
 .fifth-cap {
-  left: 120px;
+  left: 310px;
   top: 105px;
-  margin-right: 22em;
-  color: #fff;
+  margin-right: 13em;
+  color: #000;
   float: left;
   position: absolute;
   z-index: 500;
+  text-align: center;
 }
 
 .sixth-cap {
-  left: 160px;
-  top: 20px;
+  left: 300px;
+  top: -200px;
   margin-right: 12em;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.seventh-cap {
+  left: 300px;
+  top: -400px;
+  float: left;
+  position: relative;
+  text-align: center;
+  font-family: "Palanquin", sans-serif;
+}
+
+.eighth-cap {
+  left: 300px;
+  top: -200px;
+  margin-right: 12em;
+  float: left;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-family: "Palanquin", sans-serif;
 }
 
 figure .btn {
@@ -223,7 +247,7 @@ figure .btn {
   padding: .5em;
   float: left;
   position: relative;
-  top: -150px;
+  top: -130px;
   left: 80px;
   text-decoration: none;
 }
@@ -275,7 +299,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 2350px;
+  top: 3610px;
 }
 
 .twitter {
@@ -283,7 +307,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 2405px;
+  top: 3655px;
 }
 
 .insta {
@@ -291,7 +315,7 @@ footer {
   float: right;
   position: absolute;
   right: 10px;
-  top: 2460px;
+  top: 3700px;
 }
 
 .footer-sign-up {
@@ -304,7 +328,7 @@ small {
   float: left;
   position: absolute;
   left: 20px;
-  top: 2480px;
+  top: 3720px;
 }
 
 hr {
@@ -316,6 +340,7 @@ hr {
   float: right;
   position: absolute;
   right: 10px;
+  top: 2000px;
 }
 
 .twitter-tour {
@@ -323,6 +348,7 @@ hr {
   float: right;
   position: absolute;
   right: 10px;
+  top: 2000px;
 }
 
 .insta-tour {
@@ -330,6 +356,7 @@ hr {
   float: right;
   position: absolute;
   right: 10px;
+  top: 2000px;
 }
 
 .facebook-sign {
@@ -351,6 +378,33 @@ hr {
   float: right;
   position: absolute;
   right: 10px;
+}
+
+.tutorial-cap-main {
+  float: left;
+  position: relative;
+  color: #fff;
+  top: -230px;
+  padding: 2em;
+  text-align: center;
+}
+
+.tutorial-cap {
+  float: left;
+  position: relative;
+  top: -270px;
+  padding-left: 5.5em;
+  padding-right: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.tutorial-text {
+  margin-top: none;
+}
+
+form {
+  background-color: #ebebeb;
 }
 
 @media only screen and (min-width: 23em) {
