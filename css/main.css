@@ -128,7 +128,7 @@ figcaption {
 footer {
   background-color: #000;
   padding: 12em;
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 
@@ -297,7 +297,7 @@ For tour.html
   float: right;
   position: absolute;
   right: 10px;
-  top: 1000px;
+  top: 1730px;
 }
 
 .twitter-tour {
@@ -305,7 +305,7 @@ For tour.html
   float: right;
   position: absolute;
   right: 10px;
-  top: 1000px;
+  top: 1780px;
 }
 
 .insta-tour {
@@ -313,11 +313,23 @@ For tour.html
   float: right;
   position: absolute;
   right: 10px;
-  top: 1000px;
+  top: 1830px;
 }
 
 .body-copy {
   font-family: 'Asar', serif;
+}
+
+.features-pic-two {
+  margin-bottom: 0;
+}
+
+.tour-small {
+  top: 1850px;
+}
+
+.tour-credit {
+  display: none;
 }
 
 /*
@@ -369,6 +381,7 @@ For sign-up.html
   float: right;
   position: absolute;
   right: 10px;
+  top: 1880px;
 }
 
 .twitter-sign {
@@ -376,6 +389,7 @@ For sign-up.html
   float: right;
   position: absolute;
   right: 10px;
+  top: 1930px;
 }
 
 .insta-sign {
@@ -383,6 +397,7 @@ For sign-up.html
   float: right;
   position: absolute;
   right: 10px;
+  top: 1980px;
 }
 
 .sign-up-btn {
@@ -397,6 +412,23 @@ For sign-up.html
 
 .or {
   margin-left: 4em;
+}
+
+section {
+  display: block;
+}
+
+.sign-up-small {
+  top:1990px;
+}
+
+.sign-up-credit {
+  display: none;
+}
+
+input {
+  border: 2px solid #a3a3a3;
+  border-radius: 10px;
 }
 /*
 For pricing.html
@@ -491,6 +523,7 @@ form {
   float: right;
   position: absolute;
   right: 10px;
+  top: 1610px;
 }
 
 .twitter-pricing {
@@ -498,6 +531,7 @@ form {
   float: right;
   position: absolute;
   right: 10px;
+  top: 1660px;
 }
 
 .insta-pricing {
@@ -505,6 +539,15 @@ form {
   float: right;
   position: absolute;
   right: 10px;
+  top: 1710px;
+}
+
+.pricing-small {
+  top: 1730px;
+}
+
+.pricing-credit {
+  display: none;
 }
 
 @media only screen and (min-width: 23em) {
@@ -584,7 +627,7 @@ form {
   }
 
   .sign-up-small {
-    top: 2080px;
+    top: 2040px;
   }
 
   .sign-up-credit {
@@ -592,17 +635,17 @@ form {
   }
 
   .facebook-sign {
-    top: 1950px;
+    top: 1920px;
     right: 10px;
   }
 
   .twitter-sign {
-    top: 2005px;
+    top: 1970px;
     right: 10px;
   }
 
   .insta-sign {
-    top: 2060px;
+    top: 2020px;
     right: 10px;
   }
 
@@ -638,17 +681,9 @@ form {
 
 }
 
-@media only screen and (min-width: 26em) {
-
-  .dropdown-menu {
-    display: none;
-  }
+@media only screen and (min-width: 25em) {
 
   .main-nav {
-    display: block;
-  }
-
-  ul li a {
     display: none;
   }
 
@@ -674,13 +709,49 @@ form {
   }
 
   .facebook {
-    width: 15%;
-    top: 2650;
+    width: 12%;
+    top: 4640px;
+  }
+
+  .twitter {
+    width: 12%;
+    top: 4700px;
+  }
+
+  .insta {
+    width: 12%;
+    top: 4760px;
+  }
+
+  .home-small {
+    top: 4790px;
+    font-size: 1.2em;
+  }
+
+  .facebook-tour {
+    top: 2140px;
+  }
+
+  .twitter-tour {
+    top: 2200px;
+  }
+
+  .insta-tour {
+    top: 2260px;
+  }
+
+  .tour-small {
+    top: 2290px;
+    font-size: 1.2em;
   }
 
 }
 
 @media only screen and (min-width: 30em) {
+
+  li a {
+    padding: .5em;
+  }
 
   .logo-one {
     width: 8%;
@@ -694,6 +765,24 @@ form {
   .second-img {
     width: 100%;
     left: 0px;
+  }
+
+  .sign-up-one {
+    float: right;
+    width: 50%;
+    position: relative;
+    top: -475px;
+    right: 0px;
+  }
+
+  form {
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+
+  form div input {
+    padding: 0;
   }
 
   .third-img {
@@ -716,6 +805,10 @@ form {
   section {
     margin: 0;
     padding: 0;
+  }
+
+  small {
+    font-size: 1.2em;
   }
 
   nav {
@@ -766,13 +859,15 @@ form {
     right: 30px;
     width: 8%;
   }
-  footer {
-    padding: 3em;
+
+  .home-small {
+    top: 3260px;
   }
 
-  small {
-    top: 3255px;
-    font-size: 1.4em;
+  footer {
+    padding: 3em;
+    position: relative;
+    bottom: -429px;
   }
 
   .tutorial-cap-main {
@@ -801,24 +896,25 @@ form {
   }
 
   .main-nav {
-    padding: 0;
+    padding: .2em;
     margin: 0;
     float: right;
     position: relative;
-    right: 15px;
-    top: 17px;
-    width: 80%;
+    right: 40px;
+    top: 10px;
+    width: 70%;
+    display: block;
   }
 
   .main-nav li {
-    padding: 0;
+    padding-left: 1em;
     font-size: .8em;
     list-style-type: none;
     display: inline;
   }
 
   .main-nav a {
-    padding: 0;
+    padding-left: 1em;
   }
 
   .tutorial-main {
@@ -840,7 +936,7 @@ form {
     float: right;
     position: relative;
     top: -20px;
-    right: 130px;
+    right: 100px;
     padding: 0;
   }
 
@@ -849,7 +945,7 @@ form {
     float: right;
     position: relative;
     top: -20px;
-    right: 40px;
+    right: 10px;
     padding: 0;
   }
 
@@ -858,47 +954,49 @@ form {
     float: right;
     position: relative;
     top: -20px;
-    right: -50px;
+    right: -80px;
     padding: 0;
   }
 
   .tour-small {
-    top: 1570px;
-    font-size: .7em;
+    top: 40px;
+    font-size: .8em;
   }
 
   .tour-credit {
-    top: 1570px;
+    top: 40px;
+    display: block;
     font-size: .7em;
-    left: 140px;
+    left: 150px;
   }
 
   .sign-up-small {
-    top: 1810px;
-    font-size: .7em;
+    top: 40px;
+    font-size: .8em;
   }
 
   .sign-up-credit {
-    top: 1810px;
+    display: block;
+    top: 40px;
+    left: 150px;
     font-size: .7em;
-    left: 140px;
   }
 
   .facebook-sign {
     width: 8%;
-    top: 1800px;
+    top: 30px;
     right: 160px;
   }
 
   .twitter-sign {
     width: 8%;
-    top: 1800px;
+    top: 30px;
     right: 100px;
   }
 
   .insta-sign {
     width: 8%;
-    top: 1800px;
+    top: 30px;
     right: 40px;
   }
 
@@ -919,31 +1017,32 @@ form {
 
   .facebook-pricing {
     width: 8%;
-    top: 1500px;
-    right: 20px;
+    top: 25px;
+    right: 140px;
   }
 
   .twitter-pricing {
     width: 8%;
-    top: 1500px;
-    right: 20px;
+    top: 25px;
+    right: 80px;
   }
 
   .insta-pricing {
     width: 8%;
-    top: 1500px;
+    top: 25px;
     right: 20px;
   }
 
   .pricing-small {
-    top: 1810px;
-    font-size: .7em;
+    top: 40px;
+    font-size: .8em;
   }
 
   .pricing-credit {
-    top: 1810px;
+    top: 40px;
+    display: block;
     font-size: .7em;
-    left: 140px;
+    left: 150px;
   }
 
 }
@@ -968,4 +1067,196 @@ form {
     left: 120px;
     padding: .7em;
   }
+
+  .logo-one {
+    width: 4%;
+  }
+
+  .web-title {
+    left: 80px;
+    font-size: 1.1em;
+  }
+
+  .main-nav {
+    right: -280px;
+    top: 0px;
+    font-size: 1.4em;
+  }
+
+  .main-img {
+    width: 100%;
+    left: 0px;
+  }
+
+  .first-cap {
+    left: 300px;
+    top: 300px;
+    font-size: 3em;
+  }
+
+  .second-cap {
+    left: 450px;
+    top: 380px;
+    font-size: 2em;
+  }
+
+  figure .btn {
+    left: 600px;
+    top: -300px;
+  }
+
+  .tutorial-main {
+    width: 100%;
+  }
+
+  .tutorial-cap-main {
+    left: 300px;
+    top: -700px;
+    font-size: 3em;
+  }
+
+  .tutorial-cap {
+    font-size: 2em;
+    left: -450px;
+    top: -530px;
+  }
+
+  .facebook {
+    top: 23px;
+    right: 200px;
+    width: 5%;
+  }
+
+  .twitter {
+    top: 23px;
+    right: 120px;
+    width: 5%;
+  }
+
+  .insta {
+    top: 23px;
+    right: 40px;
+    width: 5%;
+  }
+
+  .home-small {
+    top: 40px;
+  }
+
+  .second-img {
+    width: 100%;
+  }
+
+  .third-cap {
+    font-size: 3em;
+    left: 100px;
+    top: 50px;
+  }
+
+  .fourth-cap {
+    font-size: 2em;
+    left: -520px;
+    top: 100px;
+  }
+
+  .body-copy-tour {
+    padding: 1em;
+    font-size: 1.4em;
+  }
+
+  .facebook-tour {
+    width: 5%;
+    right: 150px;
+    top: -30px;
+  }
+
+  .twitter-tour {
+    width: 5%;
+    right: 10px;
+    top: -30px;
+  }
+
+  .insta-tour {
+    width: 5%;
+    right: -130px;
+    top: -30px;
+  }
+
+  .tour-small {
+    font-size: .8em;
+  }
+
+  .tour-credit {
+    left: 200px;
+  }
+
+  .third-img {
+    width: 100%;
+    left: 0px;
+  }
+
+  .fifth-cap {
+    font-size: 3em;
+    right: 120px;
+    top: 200px;
+  }
+
+  .sixth-cap {
+    font-size: 2em;
+    left: 600px;
+    top: -400px;
+  }
+
+  form {
+    margin: 7em;
+    width: 25%;
+  }
+
+  .start-sign {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: -500px;
+  }
+
+  form div {
+    padding: 1.5em;
+  }
+
+  .sign-up-one {
+    top: -985px;
+    width: 40%;
+  }
+
+  .footer-sign-up {
+    margin-top: 23em;
+  }
+
+  .facebook-sign {
+    width: 5%;
+    right: 150px;
+    top: -30px;
+  }
+
+  .twitter-sign {
+    width: 5%;
+    right: 10px;
+    top: -30px;
+  }
+
+  .insta-sign {
+    width: 5%;
+    right: -130px;
+    top: -30px;
+  }
+
+  .sign-up-small {
+    font-size: .8em;
+  }
+
+  .sign-up-credit {
+    left: 200px;
+  }
+
 }
