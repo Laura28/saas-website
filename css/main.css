@@ -21,12 +21,20 @@ body {
   margin: 0;
 }
 
+header nav a {
+  width: auto;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 table {
+  display: none;
+}
+
+.wtf {
   display: none;
 }
 
