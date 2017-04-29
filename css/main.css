@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Palanquin", sans-serif;
+  font-family: Palanquin, sans-serif;
 }
 
 *, *::before, *::after {
@@ -44,7 +44,7 @@ table {
 }
 
 header, figure {
-  font-family: "Palanquin", sans-serif;
+  font-family: Palanquin, sans-serif;
 }
 
 .web-title {
@@ -325,7 +325,7 @@ For tour.html
 }
 
 .body-copy {
-  font-family: "Asar", serif;
+  font-family: Asar, serif;
 }
 
 .features-pic-two {
@@ -456,7 +456,7 @@ For pricing.html
   float: left;
   position: relative;
   text-align: center;
-  font-family: "Palanquin", sans-serif;
+  font-family: Palanquin, sans-serif;
 }
 
 .eighth-cap {
@@ -466,7 +466,7 @@ For pricing.html
   position: relative;
   text-align: center;
   color: #fff;
-  font-family: "Palanquin", sans-serif;
+  font-family: Palanquin, sans-serif;
 }
 
 .tutorial-cap-main {
