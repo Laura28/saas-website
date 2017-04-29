@@ -22,7 +22,12 @@ body {
 }
 
 header nav a {
-  width: auto;
+  width: 1em;
+}
+
+header nav a:hover {
+  background-color: #a3a3a3;
+  color: #000;
 }
 
 html, body {
@@ -132,7 +137,7 @@ figure {
   position: relative;
 }
 
-h3 {
+h2 {
   color: #fff;
   float: left;
   position: absolute;
@@ -200,9 +205,9 @@ For index.html
   margin-right: 6em;
 }
 
-figure .btn {
+.main-pic .btn {
   color: #fff;
-  background-color: rgba(83, 83, 83, 0.5);
+  background-color: rgba(83, 83, 83, .5);
   border: 2px solid #fff;
   padding: .5em;
   float: left;
@@ -212,7 +217,7 @@ figure .btn {
   text-decoration: none;
 }
 
-figure .btn:hover {
+.main-pic .btn:hover {
   -webkit-box-shadow: 0 0 3px 2px #fff;
   -moz-box-shadow: 0 0 3px 2px #fff;
   box-shadow: 0 0 3px 2px #fff;
@@ -568,7 +573,7 @@ form {
     left: 100px;
   }
 
-  figure .btn {
+  .main-pic .btn {
     left: 125px;
     top: -190px;
   }
@@ -707,7 +712,7 @@ form {
     margin-left: 5em;
   }
 
-  figure .btn {
+  .main-pic .btn {
     left: 105px;
     top: -180px;
   }
@@ -848,7 +853,7 @@ form {
     font-size: 1.2em;
   }
 
-  figure .btn {
+  .main-pic .btn {
     left: 220px;
   }
 
@@ -1102,7 +1107,7 @@ form {
     font-size: 2em;
   }
 
-  figure .btn {
+  .main-pic .btn {
     left: 600px;
     top: -300px;
   }
@@ -1353,7 +1358,7 @@ form {
     font-size: 3em;
   }
 
-  figure .btn {
+  .main-pic .btn {
     left: 800px;
     top: -400px;
     font-size: 3em;
