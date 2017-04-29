@@ -21,10 +21,6 @@ body {
   margin: 0;
 }
 
-header nav a {
-  width: 1em;
-}
-
 header nav a:hover {
   background-color: #a3a3a3;
   color: #000;
@@ -107,6 +103,7 @@ nav a {
   display: none;
   position: absolute;
   z-index: 1;
+  width: 1em;
 }
 
 .dropdown-content a {
